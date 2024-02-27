@@ -16,3 +16,9 @@ function dataDisplay(data){
     }
 }
 // loadData2()
+
+function deletePost(){
+    fetch('https://jsonplaceholder.typicode.com/posts',{
+        method: 'DELETE',
+    })
+}
